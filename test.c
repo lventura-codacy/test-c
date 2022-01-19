@@ -665,6 +665,6 @@ int parse_yaml_file(struct workload *load, int max_workload, int *index,
 	yaml_token_delete(&token);
 
 	yaml_parser_delete(&parser);
-	/*fclose(fh);*/
+
 	return 0;
 }
