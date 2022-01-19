@@ -652,7 +652,7 @@ int parse_yaml_file(struct workload *load, int max_workload, int *index,
 		}
 
 		if (rc != 0) {
-			fclose(fh);
+
 			cr_log(CLL_ERROR, "Failed to parse %s\n", key);
 			return rc;
 		}
